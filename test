@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Rester</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <form action=""  <?php  echo $_SERVER['PHP_SELF'];  ?> method="post">
+        <div class="w-75 m-auto py-5">
+
+            
+            <div class="form-grooup">
+    
+                    <label for="foodname">أسم الطعام</label>
+                    <input class="form-control" type="text" name="foodname" id="PrductName">
+    </div>    
+    <div class="form-grooup">
+    
+        <label for="Quantity">الكميه</label>
+        <input class="form-control" type="number" name="Quantity" id="Prductprice">
+    </div> 
+
+    <div class="form-grooup">
+    
+        <label for="calories">السعرات</label>
+        <input class="form-control" type="number" name="calories" id="Prductprice">
+    </div> 
+
+    <div class="form-grooup">
+    
+        <label for="Protein">البروتين </label>
+        <input class="form-control" type="number" name="Protein" id="Prductprice">
+    </div> 
+
+    <div class="form-grooup">
+    
+        <label for="carp">الكارب</label>
+        <input class="form-control" type="number" name="carp" id="Prductprice">
+    </div> 
+    <div class="form-grooup">
+    
+        <label for="Fats">الدهون</label>
+        <input class="form-control" type="number" name="Fats" id="Prductprice">
+    </div> 
+  
+       
+    <label for="fiber">الالياف</label>
+    <input class="form-control" type="number" name="fiber" id="Prductprice">
+</div> 
+    <br>
+<input  type="submit" name='sub' value ='إرسال'>
+        </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkseagreen;
+}
+
+h1{
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.form-grooup{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+  
+}
+.form-grooup input{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn{
+    font-size: 20px;
+    border: 5px solid red;
+    border-radius: 5px red;
+    width: 200px;
+    background-color: orange;
+}
+
+button{
+    margin: 50px;
+    padding: 20px;
+}
+
+table{
+    background-color: cadetblue;
+}
+
+table tr{
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+}
